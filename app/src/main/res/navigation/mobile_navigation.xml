@@ -32,4 +32,9 @@
         android:name="com.example.navdrawer.G_AcosoLaboral"
         android:label="fragment_g__acoso_laboral"
         tools:layout="@layout/fragment_g__acoso_laboral" />
+    <fragment
+        android:id="@+id/g_AcosoCallejero"
+        android:name="com.example.navdrawer.g_AcosoCallejero"
+        android:label="fragment_g__acoso_callejero"
+        tools:layout="@layout/fragment_g__acoso_callejero" />
 </navigation>
