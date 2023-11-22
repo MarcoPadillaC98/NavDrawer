@@ -3,25 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_PubReporte">
 
     <fragment
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_PubReporte"
         android:name="com.example.navdrawer.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_pubreporte" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_MisPublicaciones"
         android:name="com.example.navdrawer.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:label="Mis Publicaciones"
+        tools:layout="@layout/fragment_mispublicaciones" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_OtrasPublicaciones"
         android:name="com.example.navdrawer.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:label="Otras Publicaciones"
+        tools:layout="@layout/fragment_otraspublicaciones" />
     <fragment
         android:id="@+id/glosario"
         android:name="com.example.navdrawer.Glosario"
