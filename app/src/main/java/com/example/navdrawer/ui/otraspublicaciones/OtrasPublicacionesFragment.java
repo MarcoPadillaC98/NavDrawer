@@ -1,4 +1,4 @@
-package com.example.navdrawer.ui.slideshow;
+package com.example.navdrawer.ui.otraspublicaciones;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,23 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.navdrawer.databinding.FragmentSlideshowBinding;
+import com.example.navdrawer.databinding.FragmentOtraspublicacionesBinding;
 
-public class SlideshowFragment extends Fragment {
 
-    private FragmentSlideshowBinding binding;
+public class OtrasPublicacionesFragment extends Fragment {
+
+    private FragmentOtraspublicacionesBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        SlideshowViewModel slideshowViewModel =
-                new ViewModelProvider(this).get(SlideshowViewModel.class);
+        OtrasPublicacionesViewModel otrasPublicacionesViewModel =
+                new ViewModelProvider(this).get(OtrasPublicacionesViewModel.class);
 
-        binding = FragmentSlideshowBinding.inflate(inflater, container, false);
+        binding = FragmentOtraspublicacionesBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textSlideshow;
-        slideshowViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        otrasPublicacionesViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

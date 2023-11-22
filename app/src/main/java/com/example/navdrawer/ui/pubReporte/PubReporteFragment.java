@@ -1,4 +1,4 @@
-package com.example.navdrawer.ui.gallery;
+package com.example.navdrawer.ui.pubReporte;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,23 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.navdrawer.databinding.FragmentGalleryBinding;
 
-public class GalleryFragment extends Fragment {
+import com.example.navdrawer.databinding.FragmentPubreporteBinding;
 
-    private FragmentGalleryBinding binding;
+public class PubReporteFragment extends Fragment {
+
+    private FragmentPubreporteBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        GalleryViewModel galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+        PubReporteViewModel pubReporteViewModel =
+                new ViewModelProvider(this).get(PubReporteViewModel.class);
 
-        binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        binding = FragmentPubreporteBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textGallery;
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textHome;
+        pubReporteViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

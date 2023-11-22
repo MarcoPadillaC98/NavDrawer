@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_PubReporte"
-        android:name="com.example.navdrawer.ui.home.HomeFragment"
+        android:name="com.example.navdrawer.ui.pubReporte.PubReporteFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_pubreporte" />
 
     <fragment
         android:id="@+id/nav_MisPublicaciones"
-        android:name="com.example.navdrawer.ui.gallery.GalleryFragment"
+        android:name="com.example.navdrawer.ui.mispublicaciones.MispublicacionesFragment"
         android:label="Mis Publicaciones"
         tools:layout="@layout/fragment_mispublicaciones" />
 
     <fragment
         android:id="@+id/nav_OtrasPublicaciones"
-        android:name="com.example.navdrawer.ui.slideshow.SlideshowFragment"
+        android:name="com.example.navdrawer.ui.otraspublicaciones.OtrasPublicacionesFragment"
         android:label="Otras Publicaciones"
         tools:layout="@layout/fragment_otraspublicaciones" />
     <fragment
