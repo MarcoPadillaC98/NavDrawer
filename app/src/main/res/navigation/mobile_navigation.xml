@@ -37,4 +37,9 @@
         android:name="com.example.navdrawer.g_AcosoCallejero"
         android:label="fragment_g__acoso_callejero"
         tools:layout="@layout/fragment_g__acoso_callejero" />
+    <fragment
+        android:id="@+id/g_Ciberacoso"
+        android:name="com.example.navdrawer.g_Ciberacoso"
+        android:label="fragment_g__ciberacoso"
+        tools:layout="@layout/fragment_g__ciberacoso" />
 </navigation>

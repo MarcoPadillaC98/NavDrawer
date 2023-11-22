@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".g_Ciberacoso" >
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="190dp"
+        android:layout_height="198dp"
+        android:layout_marginTop="36dp"
+        android:src="@mipmap/ic_ciberacoso_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ciberacoso"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="333dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="40dp"
+        android:text="El ciberacoso, también conocido como ciberbullying, es una forma de acoso o hostigamiento que se lleva a cabo a través de medios digitales, como internet, redes sociales, mensajes de texto u otras plataformas electrónicas. Consiste en el envío de amenazas, insultos, difusión de rumores, revelación de información privada o cualquier otro comportamiento agresivo y repetitivo que tiene como objetivo intimidar, humillar o causar daño a una persona."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+</androidx.constraintlayout.widget.ConstraintLayout>
