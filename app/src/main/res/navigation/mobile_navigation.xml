@@ -23,13 +23,13 @@
         android:label="Otras Publicaciones"
         tools:layout="@layout/fragment_otraspublicaciones" />
     <fragment
-        android:id="@+id/glosario"
-        android:name="com.example.navdrawer.Glosario"
+        android:id="@+id/nav_glosario"
+        android:name="com.example.navdrawer.ui.glosario.GlosarioFragment"
         android:label="Glosario"
         tools:layout="@layout/fragment_glosario" />
     <fragment
         android:id="@+id/g_AcosoLaboral"
-        android:name="com.example.navdrawer.G_AcosoLaboral"
+        android:name="com.example.navdrawer.g_AcosoLaboral"
         android:label="fragment_g__acoso_laboral"
         tools:layout="@layout/fragment_g__acoso_laboral" />
     <fragment

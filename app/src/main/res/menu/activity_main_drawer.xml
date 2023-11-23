@@ -17,11 +17,11 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Otras Publicaciones" />
         <item
-            android:id="@+id/glosario"
+            android:id="@+id/nav_glosario"
             android:icon="@drawable/glosario"
             android:title="Glosario" />
         <item
-            android:id="@+id/ayuda"
+            android:id="@+id/nav_ayuda"
             android:icon="@android:drawable/ic_menu_help"
             android:title="Ayuda" />
     </group>
